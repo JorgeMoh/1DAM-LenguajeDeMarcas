@@ -1,0 +1,66 @@
+body{
+    background-color: darkturquoise;
+}
+
+h1 {
+    color:blue ; 
+    background-color: orangered;
+    text-align: center; 
+    font-family: arial; 
+    border-radius: 20%;
+    font-size: 50px;
+}
+
+h2{
+    color:turquoise ; 
+    background-color: orangered;
+    text-align: center;
+}
+
+p{
+    color:black;
+    font-family: verdana;
+    font-size: 11px;
+    text-align: center;
+}
+
+pre{
+    color: darkblue;
+}
+
+aside{
+    display:block;
+    text-align: center; 
+    background-color: darkcyan;
+}
+
+nav{
+    text-align: center; 
+    display: grid; 
+    color:whitesmoke;
+}
+
+table{
+    color: aliceblue;
+    font-family:'Times New Roman';
+}
+
+form{
+    color:yellowgreen; 
+    font-family: 'Arial', 'Helvética';
+}
+
+footer{
+    background-color:gray;
+    color:whitesmoke;
+}
+
+address{
+    text-align: justify; 
+    display:flex;
+}
+
+time{
+    text-align: justify; 
+    display:flex;
+}
