@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Descripcion" content="Todo loque necesitas saber sobre el maravilloso mundo de las habichuelas">
+    <meta name="keywords" content="Habichuela, Cultivo, Caracteristicas">
+    <link href="EstilosCV.css" rel="stylesheet">  
+    <script src="jsCV.js"></script>  
+    <title>Curriculum</title>
+</head>
+<body>
+    <div class="contenedor color">
+        <div class="izquierda">
+            <div>
+                <img src="img/foto.png" alt="" width="100">
+                <h1 class="nombre tipografia">Jorge<br>Martin</h1>
+                <h2 class="estudiante tipografia">Estudiante</h2>
+            </div>
+            <div class="Aptitudes">
+                <h3 class="tipografia">Aptitudes</h3>
+                 <ul>
+                        <li class="tipografia">Habilidades de adaptación y aprendizaje.</li>
+                        <li class="tipografia">Análisis técnico de problemas.</li>
+                        <li class="tipografia">Trabajo en equipo.</li>
+                        <li class="tipografia">Competencia digital</li>
+                        <li class="tipografia">Gestión del tiempo.</li>
+                    </ul>
+            </div>
+        </div>
+        
+        <div class="derecha">
+            <div class="datos">
+                <h3 class="nombre tipografia">Jorge Martín Mohigefer Jiménez</h3>
+                <p class="tipografia">C. Vicente Aleixandre, 15 <br>14004 Córdoba (Córdoba)</p>
+                <p class="contacto tipografia">(34) 634 42 32 21 <br>Jorgemohigefer@gmail.com</p>
+            </div>
+            <div class="descripcion">
+                <p class="tipografia">Estudiante de Desarrollo de Aplicaciones Multiplataforma cursando. Con conocimientos ofimáticos, de mantenimiento y montaje de equipos informáticos y con conocimientos básicos de HTML y Java. Con ganas de trabajar y aprender buscando obtener experiencia para poder aplicar los conocimientos adquiridos y mejorarlos en el proceso.</p>
+            </div>
+            <div class="centros">
+                <p class="tipografia"><strong>Obicex</strong>, FP Sistemas microinformáticos y redes <br>2021 - 2023</p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+
+    <div class="Botones">
+        <div class="cambioNombre">
+            <button type="button" onclick="nombre('nombre')" class="boton">Cambiar Nombre</button>
+            <input type="" id="nuevoNombre" placeholder="Nuevo Nombre">
+        </div>
+        <div class="cambioColor">
+            <button type="button" onclick="color('color')" class="boton">Cambiar Color</button>
+            <input type="color" id="nuevoColor" placeholder="Nuevo Color">
+        </div>
+        <div class="cambioTipografia">
+            <button type="button" onclick="tipografia('tipografia')" class="boton">Cambiar Tipografía</button>
+                <input list="fonts" id="fontPicker" placeholder="Elige una tipografía">
+                <datalist id="fonts">
+                    <option value="Arial, sans-serif"></option>
+                    <option value="Verdana, sans-serif"></option>
+                    <option value="Helvetica, sans-serif"></option>
+                    <option value="Times New Roman, serif"></option>
+                    <option value="Georgia, serif"></option>
+                    <option value="Courier New, monospace"></option>
+                    <option value="Lucida Console, monospace"></option>
+                    <option value="Tahoma, sans-serif"></option>
+                    <option value="Trebuchet MS, sans-serif"></option>
+                    <option value="Palatino Linotype, serif"></option>
+                    <option value="Garamond, serif"></option>
+                </datalist>
+        </div>
+    </div>
+</footer>
+</html>

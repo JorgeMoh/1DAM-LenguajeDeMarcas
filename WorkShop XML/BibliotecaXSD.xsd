@@ -1,0 +1,24 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="biblioteca">
+    <xs:complexType>
+    
+        <xs:element name="libro" maxOccurs="unbounded">
+          <xs:complexType>
+           <xs:attribute name="isbn" type="xs:positiveInteger" use="required"/>
+            <xs:sequence>
+
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="anioPubli" type="xs:positiveInteger"/>
+              <xs:element name="precio" type="xs:decimal"/>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

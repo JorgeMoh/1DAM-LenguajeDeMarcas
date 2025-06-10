@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pokedex>
+
+    <pokemon>
+        <nombre>Umbreon</nombre>
+        <tipo>Siniestro</tipo>
+        <habilidad>Sincronia</habilidad>
+        <habilidad_oculta>Fuerza mental</habilidad_oculta>
+    </pokemon>
+
+     <pokemon>
+        <nombre>Zoroark Hisui</nombre>
+        <tipo>Fantasma</tipo>
+        <tipo>Normal</tipo>
+        <habilidad>Ilusión</habilidad>
+    </pokemon>
+
+     <pokemon>
+        <nombre>Ursaluna</nombre>
+        <tipo>Tierra</tipo>
+        <tipo>Normal</tipo>
+        <habilidad>Agallas</habilidad>
+        <habilidad>Antibalas</habilidad>
+        <habilidad>Ojo mental</habilidad>
+        <habilidad_oculta>Nerviosismo</habilidad_oculta>
+    </pokemon>
+
+</pokedex>

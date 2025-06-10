@@ -1,0 +1,9 @@
+<!ELEMENT digipedia (digimon)>
+<!ELEMENT digimon (nombre, tipo, nivel, (virus | vacuna))>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT virus (EMPTY)>
+<!ELEMENT vacuna (EMPTY)>
+
+<!ATTLIST digimon familia CDATA#REQUIRED>
+

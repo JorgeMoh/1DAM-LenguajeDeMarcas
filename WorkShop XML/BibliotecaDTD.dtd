@@ -1,0 +1,11 @@
+<!DOCTYPE Biblioteca [
+    <!ELEMENT biblioteca (libro)>
+    <!ELEMENT libro (titulo, autor, anioPubli, precio)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT anioPubli (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+
+    <!ATTLIST libro isbn CDATA#REQUIRED>
+]>
+

@@ -1,0 +1,67 @@
+
+.contenedor{
+    display: grid;
+    max-width: 50%;
+    padding: 10px;
+    padding-bottom: 242px;
+    margin: 0 auto;
+    grid-template-columns: 0fr 1fr;
+    background-color: white;
+    border: 3px solid black
+}
+
+.izquierda{
+     width: 200px;
+     padding-right: 50px;
+     margin: 0;
+     
+}
+
+.derecha{
+    margin: 0;
+}
+
+.Aptitudes{
+    border: 0;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+.nombre{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.estudiante{
+   margin: 0;
+}
+
+.estudiante, .contacto{
+    color:rgb(0, 225, 0);
+}
+
+.datos, .descripcion, .centros{
+    border: 0;
+    border-top: 3px solid black;
+    margin: 20px; 
+}
+
+.Botones{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    max-width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.boton{
+    align-items: center;
+    background-color:black;
+    border: 3px solid black;
+    border-radius:100px;
+    color:white;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+}

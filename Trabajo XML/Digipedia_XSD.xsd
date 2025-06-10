@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="digipedia">
+
+        <xs:element name="digimon"  maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:attribute name="familia" type="string" use="required"/>
+                <xs:sequence>
+                    <xs:element name="nombre" type="xs:string">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                            <xs:pattern value="^[A-Z][a-z]+(mon)$">
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="tipo" type="xs:string"/>
+                    <xs:element name="nivel" type="xs:string" default="Infantil">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="Infantil">
+                                <xs:enumeration value="Adulto">
+                                <xs:enumeration value="Perfecto">
+                                <xs:enumeration value="Definitivo">
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:choice>
+                        <xs:element name="virus"/>
+                        <xs:element name="vacuna"/>
+                    <xs:choice>
+                <xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+    </xs:element>
+    
+</xs:schema>
+
+
+
+
+
+

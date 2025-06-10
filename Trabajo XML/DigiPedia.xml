@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<digipedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Digipedia_XSD.xsd">
+    
+    <!-- Esto es un digimon -->
+    <digimon familia="Soldados de Pesdailla" >
+        <nombre>Kerpymon</nombre>
+        <tipo>Querubin</tipo>
+        <nivel>Definitivo</nivel>
+        </virus>
+    </digimon>
+
+    <digimon familia="Cazadores de Virus">
+        <nombre>Kudamon</nombre>
+        <tipo>Bestia Sagrada</tipo>
+        <nivel>Infantil</nivel>
+        </vacuna>
+    </digimon>
+
+</digipedia>
+
+<!--
+    <pokemon>
+        <pokemon:nombre>Zoroark Hisui</pokemon:nombre>
+        <pokemon:tipo>Fantasma</pokemon:tipo>
+        <pokemon:tipo>Normal</pokemon:tipo>
+        <habilidad>Ilusión</habilidad>
+    </pokemon>
+-->

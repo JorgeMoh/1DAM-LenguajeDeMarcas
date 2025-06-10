@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Formulario.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+
+        <form onsubmit="comprobarFormulario(event)" action="#" method="GET">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <span id="errorNombre" style="color:red"></span><br>
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+            <span id="errorEdad" style="color:red"></span><br>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono">
+            <span id="errorTelefono" style="color:red"></span><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span id="errorEmail" style="color:red"></span><br>
+            
+            <label for="contrasenia">Contraseña:</label>
+            <input type="password" id="contrasenia" name="contrasenia">
+            <span id="errorContrasenia" style="color:red"></span>
+            <span id="contraseniaFuerte" style="color:green"></span><br>
+
+            <label for="aficion">Afición:</label>
+            <input list="listaAficiones" id="aficion" name="aficion" placeholder="aficiones">
+            <datalist id="listaAficiones">
+                <option value="Fútbol"></option>
+                <option value="Tenis"></option>
+                <option value="Baloncesto"></option>
+            </datalist>
+            <span id="errorAficion" class="error" style="color:red"></span><br>
+            
+            <label for="transporte">Transporte:</label>
+            <span id="errorTransporte" style="color:red"></span><br>
+            <input type="radio" name="transporte" value="coche">Coche<br>
+            <input type="radio" name="transporte" value="moto">Moto<br>
+            <input type="radio" name="transporte" value="monopatin">Monopatin<br>
+            <input type="radio" name="transporte"  value="bicicleta">Bicicleta<br>
+            <br>
+            
+            <input type="checkbox" id="check" name="check">
+            <label for="terminos">Acepto recibir notificaciones y apruebo las politicas de privacidad</label><br>
+            <span id="errorTerminos" style="color:red"></span><br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+</body>
+</html>

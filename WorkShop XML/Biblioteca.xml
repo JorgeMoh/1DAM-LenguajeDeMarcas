@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Biblioteca.xsd">
+
+    <libro isbn="65841">
+        <titulo>El ladron del rayo</titulo>
+        <autor>Rick Riordan</autor>
+        <anioPubli>2005</anioPubli>
+        <precio>19</precio>
+    </libro>
+
+    <libro isbn="85874">
+        <titulo>El nombre del viento</titulo>
+        <autor>Patrick Rothfuss</autor>
+        <anioPubli>2007</anioPubli>
+        <precio>25</precio>
+    </libro>
+
+    <libro isbn="85704">
+        <titulo>Una preguntita</titulo>
+        <autor>Raul Sanchez</autor>
+        <anioPubli>2025</anioPubli>
+        <precio>7</precio>
+    </libro>
+
+</biblioteca>
